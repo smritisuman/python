@@ -1,0 +1,13 @@
+# import math
+# print(math.gcd(90,45))
+
+
+def gcd(a,b):
+    if(b==0):
+        return a;
+    else:
+        return gcd(b,a%b)
+a=50
+b=25
+print("GCD of a and b is: ")
+print(gcd(a,b))
