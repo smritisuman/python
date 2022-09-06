@@ -1,3 +1,4 @@
+// Reverse the given array using reverse function
 A=[1,2,3,4]
 A.reverse()
 print("Using reverse() ", A)
