@@ -1,0 +1,8 @@
+print("Enter the number: ")
+n=int(input())
+if(n%2==0):
+    # Number divided by 2 gives reminder as 0 is even.
+    print("The entered number is even")
+elif(n%2!=0):
+    # Number divided by 2 gives does not reminder as 0 is odd.
+    print("The entered number is odd")
